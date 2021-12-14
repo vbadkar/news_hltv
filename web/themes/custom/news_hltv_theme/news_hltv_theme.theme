@@ -1,0 +1,17 @@
+ <?php
+ function news_hltv_theme_preprocess(&$variables) {
+      $variables['#attached']['library'][] = 'news_hltv_theme/style';
+}
+ function news_hltv_theme_preprocess__html(&$variables) {
+      kint($variables);
+}
+function news_hltv_theme_preprocess__container(&$variables) {
+      $variables['element']['#attributes']['class'][] = "site-logo";
+}
+function news_hltv_theme_preprocess_page(&$variables) {
+
+   $date = new DateTime(date('H:i Y-m-d'));
+   $variables['today'] = date_format($date, 'd-M-Y H:i:s');
+}
+
+ ?>

@@ -1,0 +1,31 @@
+@import "./variables";
+
+header{
+  position: static;
+  background-color: #2d3844;
+  width: 100%;
+
+}
+#page-wrapper {
+  border: 0px solid red;
+  width: 74%;
+  margin: 0 auto;
+  #page{
+    background-color: #181b1f;
+  }
+}
+
+
+.sidebar_1{
+  width: 100%;
+}
+.sidebar_2{
+  width: 100%;
+}
+.column.sidebar{
+  width: 100%;
+}
+.featured-header{
+  width: 100%;
+}
+

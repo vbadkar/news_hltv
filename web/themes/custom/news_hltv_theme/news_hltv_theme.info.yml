@@ -1,0 +1,19 @@
+name: News Hltv Theme
+type: theme
+description: custom theme for news site - hltv
+core_version_requirement: ^9
+base theme: stable
+screenshot: news_hltv_theme.png
+
+libraries:
+  - news_hltv_theme/style
+
+regions:
+  header: Header
+  main_menu: 'Main menu'
+  main_content: 'Main content'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  footer: 'Footer'
+  page_top: 'Page Top'
+  page_bottom: 'Page Bottom'

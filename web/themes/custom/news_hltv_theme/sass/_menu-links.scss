@@ -1,0 +1,28 @@
+.nav-wrapper{
+  width: 74%;
+  margin: 0 auto;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 50%);
+  .main-menu{
+    height: 46px;
+    display: flex;
+    list-style: none;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 400;
+
+    .main-menu-items{
+      text-align: center;
+      border-left: 1px solid rgba(73,88,103,.65);
+      &:last-child{
+        border-right: 1px solid rgba(73,88,103,.65);
+      }
+      a{
+        color: #929a9e;
+        text-decoration: none;
+        width: 100%;
+        padding: 0 11px;
+      }
+    }
+
+  }
+}
